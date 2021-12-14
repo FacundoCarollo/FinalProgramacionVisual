@@ -67,7 +67,7 @@ const validarFormulario = (e) => {
                     lblEmail.style.color = "#35b680"
                    
                     entrar = true;
-                    h1.style.visibility = "hidden"
+                  
              
                  
                   
@@ -84,7 +84,7 @@ const validarFormulario = (e) => {
                     lblEmail.style.color = "red"
               
                     entrar = false;
-                    h1B.style.visibility = "hidden"
+                   
                    
                 
             
@@ -114,7 +114,7 @@ const validarFormulario = (e) => {
                         lblTelefono.style.color = "red"
                
                         entrar = false;
-                        h1B.style.visibility = "hidden"
+                      
                       
             
                    
@@ -155,7 +155,7 @@ const validarFormulario = (e) => {
                     lblContraseña2.style.color = "red"
                   
                     entrar = false;
-                    h1B.style.visibility = "hidden"
+              
                    
                 
                  
@@ -171,7 +171,7 @@ const validarFormulario = (e) => {
                     lblContraseña2.style.color = "red"
                 
                     entrar = false;
-                    h1B.style.visibility = "hidden"
+                  
                 }
                 
             

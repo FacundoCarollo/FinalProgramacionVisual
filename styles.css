@@ -1,7 +1,7 @@
-@import url(./node_modules/bootstrap/scss/bootstrap.scss);
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Josefin+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
-@import url(./node_modules/bootstrap/scss/bootstrap.scss);
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Josefin+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 html { 
@@ -347,16 +347,12 @@ font-weight: bold;
 }
 
 @media screen and (max-width: 1080px) {
-  
- .tiltle{
-  margin-left: 6em;
- }
-
-  .cards{
+  .tiltle{
+    margin-left: 6em;
+   }
+   .cards{
     width: 100%;
-
     flex-wrap: wrap;
-    
     align-items: space-around;
   }
 
@@ -370,7 +366,7 @@ font-weight: bold;
   }
 
  .article h1{
-    font-size: 30px;
+    font-size: 20px;
 
   }
 
@@ -379,7 +375,7 @@ font-weight: bold;
   }
 
   .article #typed-strings{
-    font-size: 30px
+    font-size: 20px
   }
 
   .article p{
@@ -409,33 +405,81 @@ font-weight: bold;
     border:none;
 
    border-radius: 50px;
-   margin-left: 1.5em;
+
     background-color: aqua;
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+  }
+
+}
+
+
+
+ 
+
+
+ 
+ 
+
+ 
+
  
     
-}
 
 
-}
+@media screen and (max-width: 480px) {
+  .article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1em;
+ 
+  }
 
+  .form{
+    width: 100vw;
 
+   display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family:  'Poppins';
+   padding-right: 0em;
+   padding-left: 0em;
+   margin-left: 1em;
+  }
 
-
-.nombre{
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  .btn{
+    margin-left:3em ;
+   }
   
-
+   #formulario input{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+   }
+   #formulario label{
+    margin-left: 1em;
+   }
+   #formulario p{
+    margin-left: 1em;
+   }
+  
+   .nombre{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+  
+   }
 }
 
-
-
-
-
-
+ 
 
 
 
@@ -444,23 +488,94 @@ font-weight: bold;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 481px){
+   #formulario{
+     height:100%;
+     padding: 0;
+     margin: 0
+   }
+
+
+  #formulario input{
+    display: flex;
   
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+    padding:0;
+  }
+
+  .btn{
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 360px){
+
+  #header{
+    padding-top: 20em ;
+    padding-bottom: 20em;
+  }
+  .main{
+    padding-top: 0em ;
+    padding-bottom: 0em;
+  }
+  #formulario{
+    height:100%;
+    padding: 0;
+    margin: 0
+  }
+
+  .form{
+    height:100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
 
 
+ #formulario input{
+   display: flex;
 
-/* <footer class="footer">
-      <div class="footer-content">
-        <h2>F<span class="span-f">C</span></h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
-          <ul class="redes">
-              <li><a target="_blank" href="https://api.whatsapp.com/send?phone=1132309376&text=Hola,%20somos%20FC.%20En%20que%20podemos%20ayudarlo?" ><i class="fab fa-whatsapp"  role="img" aria-label="Whatsapp"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/feed/"><i  class="fab fa-linkedin" role="img" aria-label="Likedin"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/?hl=es"><i  class="fab fa-instagram" role="img" aria-label="Instagram"></i></a></li>
-              <li><a target="_blank" href="https://github.com/" ><i  class="fab fa-github"  role="img" aria-label="GitHub"></i></a></li>
-              
-          </ul>
-      </div>
-      <div class="footer-derechos">
-          <p>copyright 2021 FC. designed by <span>Facundo Carollo</span></p>
-      </div>
-     </footer>*/
+    height: 21px;
+   align-items: center;
+   justify-content: center;
+   margin-right: 2em;
+   padding:0;
+   margin-top: 0;
+ }
+#formulario .nombre{
+   
+  padding-bottom: 0;
+  padding-top: 1em;
+}
+#formulario .email{
+  padding-bottom: 0;
+  padding-top: 0em;
+}
+#formulario #confirmacion {
+margin-bottom: 1em;
+padding: 0;
+ }
+
+ #formulario .btn{
+   
+   width: 100px;
+   height:30px;
+   font-size:13px;
+   font-weight: bold;
+   padding: 3px;
+ }
+}
