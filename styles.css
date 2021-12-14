@@ -523,7 +523,7 @@ font-weight: bold;
   }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 361px){
 
   #header{
     padding-top: 20em ;
@@ -565,7 +565,10 @@ font-weight: bold;
   padding-bottom: 0;
   padding-top: 0em;
 }
+
+
 #formulario #confirmacion {
+ 
 margin-bottom: 1em;
 padding: 0;
  }
@@ -576,6 +579,12 @@ padding: 0;
    height:30px;
    font-size:13px;
    font-weight: bold;
-   padding: 3px;
+   padding-bottom: 3px;
  }
 }
+
+.password2 p{
+ margin-bottom:0em;
+ 
+}
+
