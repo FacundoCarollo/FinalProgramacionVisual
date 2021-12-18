@@ -48,8 +48,8 @@ const validarFormulario = (e) => {
             lblNombre.style.color = "red"
           
             entrar = false;
-            h1B.style.visibility = "hidden"
-            console.log(false);
+            
+          
            
 
              
